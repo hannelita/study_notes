@@ -1,0 +1,46 @@
+\documentclass{cornell}
+\usepackage{lipsum}
+\begin{document} 
+
+\title{
+    \vspace{-3em}
+        \begin{tcolorbox}[colframe=white,opacityback=0]
+            \begin{tcolorbox}
+                \Huge\sffamily A nice book, AUTHOR, AUTHOR,1999
+            \end{tcolorbox}
+        \end{tcolorbox}
+    \vspace{-3em}
+}
+\maketitle
+
+\begin{tcolorbox}
+\preread{I read this book for ...}{The questions}
+\end{tcolorbox}
+
+
+\noindent
+One or two paragraphs about the book/course
+
+\lipsum[1]
+
+\topic{Key term}%
+{Definition}%
+{Some other stuff about the term/concept.}%
+
+
+\topic{Chapter 1.}{\lipsum[1]}%
+{\lipsum[2]}%
+
+
+\topic{Here's another question.}{\lipsum[1]}%
+{\lipsum[2]}%
+
+\insight{An interesting idea.}
+
+\topic{Another chapter.}{\lipsum[3]}%
+{\lipsum[4]}%
+{\lipsum[5]}%
+
+\summary{And another summary that will float to the bottom of the next page.}
+
+\end{document}
