@@ -1,0 +1,1 @@
+Hello, these are my study notes. There will be notes for books, courses, ideas. Feel free to use them for your own studies.

@@ -1,0 +1,1 @@
+https://tex.stackexchange.com/questions/276410/how-to-match-width-of-tcolorbox-box-in-this-cornell-notes-template
