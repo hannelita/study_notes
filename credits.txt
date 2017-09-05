@@ -1,1 +1,3 @@
 https://tex.stackexchange.com/questions/276410/how-to-match-width-of-tcolorbox-box-in-this-cornell-notes-template
+https://tex.stackexchange.com/questions/70570/cornell-notes-a-lyx-or-latex-solution-needed/188601#188601
+https://tex.stackexchange.com/questions/70570/cornell-notes-a-lyx-or-latex-solution-needed

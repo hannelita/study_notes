@@ -72,7 +72,7 @@
 \begin{minipage}{\textwidth}%%%%
 \begin{tcolorbox}[colframe=white,opacityback=0]
 \begin{tcolorbox}[enhanced,colframe=black,fonttitle=\large\bfseries\sffamily,sidebyside=true, nobeforeafter,before=\vfil,after=\vfil,colupper=black,sidebyside align=top, lefthand width=.95\textwidth,opacitybacktitle=1, opacitytext=1,
-%segmentation style={black!55,solid,opacity=0,line width=3pt},
+segmentation style={black!55,solid,opacity=0,line width=3pt},
 title=Summary
 ]
 #1
@@ -83,19 +83,10 @@ title=Summary
 \end{tikzpicture}
 }
 
-\def\insight#1{
-\begin{tikzpicture}[overlay,remember picture,inner sep=0pt, outer sep=0pt]
-\node[anchor=south,yshift=-1ex] at (current page text area.south) {% 
-\begin{minipage}{\textwidth}%%%%
-\begin{tcolorbox}[colframe=white,opacityback=0]
-\begin{tcolorbox}[enhanced,colframe=black,fonttitle=\large\bfseries\sffamily,sidebyside=true, nobeforeafter,before=\vfil,after=\vfil,colupper=black,sidebyside align=top, lefthand width=.95\textwidth,opacitybacktitle=1, opacitytext=1,
-%segmentation style={black!55,solid,opacity=0,line width=3pt},
-title=Insight
-]
-#1
-\end{tcolorbox}
-\end{tcolorbox}
-\end{minipage}
-};
-\end{tikzpicture}
+\usepackage{xparse}
+\DeclareDocumentCommand\insight{ m }
+{
+    \begin{tcolorbox}[colback=white, width=\textwidth]
+    #1
+    \end{tcolorbox}
 }
